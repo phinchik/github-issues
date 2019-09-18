@@ -1,0 +1,13 @@
+@import '../../assets/fonts';
+@import '../../assets/variables/colors.module.scss';
+@import '../../assets/variables/mediaQueries.module';
+
+.LabelContainer{
+    background-color: $color-primary;
+    padding: 5px 8px;
+    margin: auto 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: $color-white;
+    font-size: $font-size-smallest;
+}

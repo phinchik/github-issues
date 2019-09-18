@@ -1,0 +1,68 @@
+@import '../../assets/fonts';
+@import '../../assets/variables/colors.module.scss';
+@import '../../assets/variables/mediaQueries.module';
+
+.issueContainer{
+    height: 250px;
+    width: 30%;
+    background-color: $color-white;
+    margin: 2% 1%;
+    box-shadow: 1px 5px 17px -4px rgba(0,0,0,0.3);
+    position: relative;
+
+    @media screen and (max-width: $screen-lg){
+        width: 40%;
+        margin: 2% auto;
+    }
+
+    @media screen and (max-width: $screen-md) {
+       width: 90%;
+       margin: 2% auto;
+    }
+}
+
+.issueTitle {
+    font-size: $font-size-medium;
+    color: $color-white;
+    margin: 0px;
+    font-family: $font-family-regular
+}
+
+.issueTitleContainer{
+    padding: 15px;
+    background-color: $color-secondary;
+
+}
+
+.issueBodyContainer{
+    padding: 15px;
+}
+
+.issueNoDescription{
+    color: $color-gray;
+}
+
+.issueLabelContainer{
+    position: absolute;
+    bottom: 15px;
+}
+
+
+.issueLabel{
+    display: flex;
+    flex-direction: row;
+}
+
+.issueBody{
+    font-size: $font-size-small;
+    font-family: $font-family-regular
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 5px;
+}

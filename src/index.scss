@@ -1,0 +1,9 @@
+@import '../src/assets/fonts.scss';
+@import '../src/assets/variables/colors.module';
+@import '../src/assets/variables/mediaQueries.module';
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: $font-family-light;
+}

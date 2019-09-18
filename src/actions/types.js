@@ -1,0 +1,6 @@
+export const GET_ISSUES = "GET_ISSUES"
+export const GET_ISSUES_SUCCESS = "GET_ISSUES_SUCCESS"
+export const GET_ISSUES_FAILED = "GET_ISSUES_FAILED"
+export const INPUT_VALUE = "INPUT_VALUE"
+export const ACTIVE_TAB = "ACTIVE_TAB"
+export const RESET_STATE = "RESET_STATE"

@@ -1,0 +1,71 @@
+@import '../../assets/variables/colors.module.scss';
+@import '../../assets/variables/mediaQueries.module';
+@import '../../assets/fonts';
+
+
+.tabContainer{
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.tab{
+    margin: 0 15px 0 5px;
+    font-size: $font-size-medium;
+    cursor: pointer;
+
+   @media screen and (max-width: $screen-sm) {
+        font-size: $font-size-small;
+    }
+}
+
+.activeTab{
+     margin: 0 15px 0 5px;
+    font-size: $font-size-medium;
+    color: $color-primary;
+    cursor: pointer;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $font-size-small;
+    }
+}
+
+.issueContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto auto;
+}
+
+.close{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 17%;
+    right: 3%;
+
+     @media screen and (max-width: $screen-sm) {
+        height: 15px;
+        width: 15px;
+    }
+}
+
+
+.loadingSpinnerContainer{
+    display: flex;
+    justify-content: center
+}
+
+.loadingSpinner{
+    height: 50px;
+    width: 50px;
+}
+
+.emptyIssueText{
+    text-align: start;
+    margin-left: 80px;
+
+    @media screen and (max-width: $screen-sm) {
+        margin-left: 30px;
+    }
+}
